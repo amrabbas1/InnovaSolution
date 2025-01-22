@@ -8,8 +8,9 @@ namespace Innova.Core.Models
 {
     public class StudentAssignment
     {
-        public int? StudentId { get; set; }//FK
-        public int? AssignmentId { get; set; }//FK
+        public string? StudentId { get; set; }//FK
+        public string? AssignmentId { get; set; }//FK
         public string FileUrl { get; set; }
+        public List<StudentAssignmentFiles> StudentsAssingnmentsFiles { get; set; }
     }
 }

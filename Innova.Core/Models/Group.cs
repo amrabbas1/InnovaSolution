@@ -9,16 +9,16 @@ namespace Innova.Core.Models
 {
     public class Group
     {
-        public int Id { get; set; }
+        public string Id { get; set; }
         public string AgeGroup { get; set; }
-        public int? InstructorId { get; set; }//FK
-        public int? PackageId { get; set; }//FK
+        public string? InstructorId { get; set; }//FK
+        public string? PackageId { get; set; }//FK
 
         public Instructor Instructor { get; set; }
         public Package Package { get; set; }
-        public ICollection<GroupDate> GroupDates { get; set; }
-        public ICollection<Session> Sessions { get; set; }
-        public ICollection<GroupFile> GroupFiles { get; set; }
+        public List<GroupDate> GroupDates { get; set; }
+        public List<Session> Sessions { get; set; }
+        public List<GroupFile> GroupFiles { get; set; }
 
     }
 }

@@ -2,12 +2,12 @@
 {
     public class Program
     {
-        public int Id { get; set; }
+        public string Id { get; set; }
         public string Name { get; set; }
         public bool IsActive { get; set; }
 
-        public ICollection<Package> Packages { get; set; }
-        public ICollection<StudentProgram> StudentsPrograms { get; set; }
-        public ICollection<FinalProjectFile> FinalProjectFiles { get; set; }
+        public List<Package> Packages { get; set; }
+        public List<StudentProgram> StudentsPrograms { get; set; }
+        public List<FinalProjectFile> FinalProjectFiles { get; set; }
     }
 }

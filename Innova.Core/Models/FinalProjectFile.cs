@@ -2,8 +2,8 @@
 {
     public class FinalProjectFile
     {
-        public int? StudentId { get; set; }//FK
-        public int? ProgramId { get; set; }//FK
+        public string? StudentProgramStudentId { get; set; }//FK
+        public string? StudentProgramProgramId { get; set; }//FK
         public string FileUrl { get; set; }
 
 

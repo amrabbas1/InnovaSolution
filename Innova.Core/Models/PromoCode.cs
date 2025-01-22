@@ -10,7 +10,7 @@ namespace Innova.Core.Models
     {
         public string promoCode { get; set; }
         public bool IsActive { get; set; }
-        public int? OfferId { get; set; }//FK
+        public string? OfferId { get; set; }//FK
 
         public Offer Offer { get; set; }
     }

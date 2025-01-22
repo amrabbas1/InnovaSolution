@@ -2,8 +2,8 @@
 {
     public class StudentAttendSession
     {
-        public int? StudentId { get; set; }//FK
-        public int? SessionId { get; set; }//FK
+        public string? StudentId { get; set; }//FK
+        public string? SessionId { get; set; }//FK
         public float Engagement_And_Participation { get; set; }
         public string PrivateNote { get; set; }
         public float Learning_And_Comprehension { get; set; }

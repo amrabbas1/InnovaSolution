@@ -2,10 +2,9 @@
 {
     public class GroupFile
     {
-        public int Id { get; set; }
+        public string Id { get; set; }
         public string Path { get; set; }
-        public int? GroupId { get; set; }//FK
-
+        public string? GroupId { get; set; }//FK
         public Group Group { get; set; }
     }
 }

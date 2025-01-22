@@ -8,10 +8,10 @@ namespace Innova.Core.Models
 {
     public class Quiz
     {
-        public int Id { get; set; }
-        public int? SessionId { get; set; }//FK
+        public string Id { get; set; }
+        public string? SessionId { get; set; }//FK
         public Session Session { get; set; }
         public int Score { get; set; }
-        public ICollection<StudentQuiz> StudentQuizzes { get; set; }
+        public List<StudentQuiz> StudentQuizzes { get; set; }
     }
 }

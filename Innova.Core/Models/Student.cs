@@ -10,10 +10,10 @@ namespace Innova.Core.Models
     {
         public string Grade { get; set; }
         public string SchoolName { get; set; }
-        public ICollection<Achievement> Achievements { get; set; }
-        public ICollection<StudentQuiz> StudentsQuizzes { get; set; }
-        public ICollection<StudentProgram> StudentsPrograms { get; set; }
-        public ICollection<FinalProjectFile> FinalProjectFiles { get; set; }
+        public List<Achievement> Achievements { get; set; }
+        public List<StudentQuiz> StudentsQuizzes { get; set; }
+        public List<StudentProgram> StudentsPrograms { get; set; }
+        public List<FinalProjectFile> FinalProjectFiles { get; set; }
 
     }
 }

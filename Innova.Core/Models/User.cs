@@ -16,7 +16,7 @@ namespace Innova.Core.Models
 		public string? PreferredLanguage { get; set; } 
 		public string? TimeZone { get; set; } 
 		public string? PaymentMethod { get; set; } 
-		public DateTime AppointmentDate { get; set; } 
-	}
+		public DateTime AppointmentDate { get; set; }
+    }
 
 }

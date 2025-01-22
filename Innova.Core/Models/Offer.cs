@@ -8,14 +8,16 @@ namespace Innova.Core.Models
 {
     public class Offer
     {
-        public int Id { get; set; }
+        public string Id { get; set; }
         public string Description { get; set; }
         public float Discount { get; set; }
         public bool IsActive { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
         public string Title { get; set; }
-        public ICollection<PromoCode> MyProperty { get; set; }
+        public List<PromoCode> PromoCodes { get; set; }
+        public List<OfferPackage> OffersPackages { get; set; }
+
 
     }
 }

@@ -2,8 +2,8 @@
 {
     public class OfferPackage
     {
-        public int? OfferId { get; set; }//FK
-        public int? PackageId { get; set; }//FK
+        public string? OfferId { get; set; }//FK
+        public string? PackageId { get; set; }//FK
 
     }
 }

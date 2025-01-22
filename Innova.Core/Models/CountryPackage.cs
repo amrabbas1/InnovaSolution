@@ -8,9 +8,8 @@ namespace Innova.Core.Models
 {
     public class CountryPackage
     {
-        public int? CountryId { get; set; }//FK
-        public int? PackageId { get; set; }//FK
+        public string? CountryId { get; set; }//FK
+        public string? PackageId { get; set; }//FK
         public int Price { get; set; }
-
     }
 }

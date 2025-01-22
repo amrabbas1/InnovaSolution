@@ -8,8 +8,8 @@ namespace Innova.Core.Models
 {
     public class Parent : User
     {
-        public int? StudentId { get; set; }//FK
-        public ICollection<Student> Students { get; set; }
-        public ICollection<PaymentInvoice> PaymentInvoices { get; set; }
+        public string? StudentId { get; set; }//FK
+        public List<Student> Students { get; set; }
+        public List<PaymentInvoice> PaymentInvoices { get; set; }
     }
 }
